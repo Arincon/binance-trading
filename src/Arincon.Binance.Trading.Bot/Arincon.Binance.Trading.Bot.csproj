@@ -3,12 +3,19 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Binance" Version="0.2.0-alpha.13" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.2.0-beta3" />
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arincon.Binance.Trading.Model\Arincon.Binance.Trading.Model.csproj" />
   </ItemGroup>
 
 </Project>
