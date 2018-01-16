@@ -2,7 +2,7 @@
 
 namespace Arincon.Binance.Trading.API
 {
-    public class Class1
+    public class OrderOperations
     {
     }
 }
